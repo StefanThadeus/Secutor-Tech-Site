@@ -146,6 +146,12 @@ body {
   text-align: center;
 }
 
+@media (max-width: 1095px) {
+  .container-fluid {
+    padding: 3% 7%;
+  }
+}
+
 @media (max-width: 991px) {
   #title {
     text-align: center;
@@ -158,5 +164,22 @@ body {
   .nav-item-login{
     padding-left: 0;
     padding-right: 0;
+  }
+
+
+  .nav-link {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 400;
+  }
+
+  .btn-login {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 400;
+  }
+
+  .btn-get-started{
+    font-size: 1.5rem;
   }
 }
